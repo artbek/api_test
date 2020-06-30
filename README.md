@@ -1,7 +1,7 @@
-1. To create the database tables: `migrations/migrations.sql`.
+1. Create the database tables with: `migrations/migrations.sql`.
 2. Fix configs: `private/config.php` + `private/mysql.php`.
-2. To populate database with API data: `php private/sync.php`.
-3. Run `public/index.php' in your browser to list the results.
+2. Populate database with API data with: `php private/sync.php`.
+3. Run `public/index.php` in your browser to list the results.
 
 #### TODO:
 
@@ -16,5 +16,6 @@
 - forms needs validation
 - read-only forms are not read only
 - custom parameters for the sync script (page size, sync only selected records)
+- pagination on the search page (currently hardcoded)
 - a lot more testing
 
